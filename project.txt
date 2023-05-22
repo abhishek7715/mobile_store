@@ -1,0 +1,2690 @@
+import java.util.Scanner;
+
+class mobile {
+	String model;
+	String Ram_storage;
+	String Display;
+	String Processor;
+	int Price;
+
+	mobile(String model, String Ram_storage, String Display, String Processor, int Price) {
+		this.model = model;
+		this.Ram_storage = Ram_storage;
+		this.Display = Display;
+		this.Processor = Processor;
+		this.Price = Price;
+	}
+}
+
+class keypad_phones extends mobile {
+	keypad_phones(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class Nokia extends keypad_phones {
+	Nokia(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class Nokia105 extends Nokia {
+	Nokia105(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+
+}
+
+class Nokia3310 extends Nokia {
+	Nokia3310(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class Nokia105_plus extends Nokia {
+	Nokia105_plus(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class Nokia216 extends Nokia {
+	Nokia216(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class Nokia1100 extends Nokia {
+	Nokia1100(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class samsung2 extends keypad_phones {
+	samsung2(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class samsung_guru extends samsung2 {
+	samsung_guru(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class samsung_guruFM extends samsung2 {
+	samsung_guruFM(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class samsung_metro extends samsung2 {
+	samsung_metro(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class samsung_E1200 extends samsung2 {
+	samsung_E1200(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class samsung_b312 extends samsung2 {
+	samsung_b312(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class lava extends keypad_phones {
+	lava(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class lava209 extends lava {
+	lava209(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class lava345 extends lava {
+	lava345(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class lava234 extends lava {
+	lava234(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+/*
+ * class lava_agni extends lava { lava_agni(String model,String
+ * Ram_storage,String Display,String Processor,int Price) { super(model,
+ * Ram_storage, Display, Processor, Price); } }
+ */
+
+class low_budget_phones extends mobile {
+	low_budget_phones(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class xiaomi extends low_budget_phones {
+	xiaomi(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class xiaomi_11 extends xiaomi {
+	xiaomi_11(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class xiaomi_11_5g extends xiaomi {
+	xiaomi_11_5g(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class xiaomi_11_pro extends xiaomi {
+	xiaomi_11_pro(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class xiaomi_10 extends xiaomi {
+	xiaomi_10(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class xiaomi_10_pro extends xiaomi {
+	xiaomi_10_pro(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class oppo3 extends low_budget_phones {
+	oppo3(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class oppo_f16 extends oppo3 {
+	oppo_f16(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class oppo_f14 extends oppo3 {
+	oppo_f14(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class oppo_a2 extends oppo3 {
+	oppo_a2(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class oppo_a72 extends oppo3 {
+	oppo_a72(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class oppo_f21 extends oppo3 {
+	oppo_f21(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class vivo extends low_budget_phones {
+	vivo(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class vivo_v15 extends vivo {
+	vivo_v15(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class vivo_v19 extends vivo {
+	vivo_v19(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class vivo_1981 extends vivo {
+	vivo_1981(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class vivo_v25 extends vivo {
+	vivo_v25(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class vivo_v17 extends vivo {
+	vivo_v17(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class Samsung extends low_budget_phones {
+	Samsung(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class samsung_a12 extends Samsung {
+	samsung_a12(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class samsung_F22 extends Samsung {
+	samsung_F22(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class samsung_F14 extends Samsung {
+	samsung_F14(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class samsung_Y34 extends Samsung {
+	samsung_Y34(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class samsung_J5 extends Samsung {
+	samsung_J5(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class infinix extends low_budget_phones {
+	infinix(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class infinix_note1 extends infinix {
+	infinix_note1(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class infinix_note2 extends infinix {
+	infinix_note2(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class infinix_note3 extends infinix {
+	infinix_note3(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class infinix_note4 extends infinix {
+	infinix_note4(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class infinix_note5 extends infinix {
+	infinix_note5(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class jio_5 extends low_budget_phones {
+	jio_5(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class mid_budget_phones extends mobile {
+	mid_budget_phones(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class samsung1 extends mid_budget_phones {
+	samsung1(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class samsung1_m32 extends samsung1 {
+	samsung1_m32(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class samsung1_f45 extends samsung1 {
+	samsung1_f45(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class samsung1_F34 extends samsung1 {
+	samsung1_F34(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class samsung1_A72 extends samsung1 {
+	samsung1_A72(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class samsung1_A23 extends samsung1 {
+	samsung1_A23(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class Redmi extends mid_budget_phones {
+	Redmi(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class Redmi_11pro extends Redmi {
+	Redmi_11pro(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class Redmi_12pro extends Redmi {
+	Redmi_12pro(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class Redmi_15pro extends Redmi {
+	Redmi_15pro(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class Redmi_5_ultra extends Redmi {
+	Redmi_5_ultra(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class Redmi_12_ultra extends Redmi {
+	Redmi_12_ultra(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class Oppo extends mid_budget_phones {
+	Oppo(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class Oppo_reno_3 extends Oppo {
+	Oppo_reno_3(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class Oppo_reno_7 extends Oppo {
+	Oppo_reno_7(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class Oppo_find extends Oppo {
+	Oppo_find(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class Oppo_K3 extends Oppo {
+	Oppo_K3(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class Oppo_R7 extends Oppo {
+	Oppo_R7(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class Vivo1 extends mid_budget_phones {
+	Vivo1(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class vivo_v45 extends Vivo1{
+	vivo_v45(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class Vivo_X30 extends Vivo1 {
+	Vivo_X30(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class Vivo_X70 extends Vivo1 {
+	Vivo_X70(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class Vivo_U20 extends Vivo1 {
+	Vivo_U20(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class Vivo_X80 extends Vivo1 {
+	Vivo_X80(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class motorola extends mid_budget_phones {
+	motorola(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class motorola_edge_20 extends motorola {
+	motorola_edge_20(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+
+	}
+}
+
+class motorola_edge_20pro extends motorola {
+	motorola_edge_20pro(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+
+	}
+}
+
+class motorola_razr extends motorola {
+	motorola_razr(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+
+	}
+}
+
+class motorola_30 extends motorola {
+	motorola_30(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+
+	}
+}
+
+class motorola_edge_50 extends motorola {
+	motorola_edge_50(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+
+	}
+}
+
+class Premium_Phones extends mobile {
+	Premium_Phones(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class Apple extends Premium_Phones {
+	Apple(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class Iphone_11 extends Apple {
+	Iphone_11(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class Iphone_11_pro extends Apple {
+	Iphone_11_pro(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class Iphone_12 extends Apple {
+	Iphone_12(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class Iphone_12_pro extends Apple {
+	Iphone_12_pro(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class Iphone_14_pro extends Apple {
+	Iphone_14_pro(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class Samsung_galaxy extends Premium_Phones {
+	Samsung_galaxy(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class Samsung_galaxy_note10 extends Samsung_galaxy {
+	Samsung_galaxy_note10(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class Samsung_galaxy_note20 extends Samsung_galaxy {
+	Samsung_galaxy_note20(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class Samsung_galaxy_ulta1 extends Samsung_galaxy {
+	Samsung_galaxy_ulta1(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class Samsung_galaxy_ultra2 extends Samsung_galaxy {
+	Samsung_galaxy_ultra2(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class Samsung_galaxy_note22 extends Samsung_galaxy {
+	Samsung_galaxy_note22(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class Huawei extends Premium_Phones {
+	Huawei(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class Huawei_P20 extends Huawei {
+	Huawei_P20(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class Huawei_P30 extends Huawei {
+	Huawei_P30(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class Huawei_P20_ulrta extends Huawei {
+	Huawei_P20_ulrta(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class Huawei_P40 extends Huawei {
+	Huawei_P40(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class Huawei_P50 extends Huawei {
+	Huawei_P50(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class Oneplus extends Premium_Phones {
+	Oneplus(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class Oneplus8 extends Oneplus {
+	Oneplus8(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class Oneplus8pro extends Oneplus {
+	Oneplus8pro(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class Oneplus9 extends Oneplus {
+	Oneplus9(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class Oneplus9pro extends Oneplus {
+	Oneplus9pro(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class Oneplus10 extends Oneplus {
+	Oneplus10(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class foldable_phones extends mobile {
+	foldable_phones(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+
+	}
+}
+
+class samsung_fold extends foldable_phones {
+	samsung_fold(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class samsung_flip extends foldable_phones {
+	samsung_flip(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class mi_fold extends foldable_phones {
+	mi_fold(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class tablet extends mobile {
+	tablet(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class samsung_tab extends tablet {
+	samsung_tab(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class mi_tab extends tablet {
+	mi_tab(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class oppo_tab extends tablet {
+	oppo_tab(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class ipad extends mobile {
+	ipad(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class ipad_1 extends ipad {
+	ipad_1(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class ipad_air extends ipad {
+	ipad_air(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+class ipad_air2 extends ipad {
+	ipad_air2(String model, String Ram_storage, String Display, String Processor, int Price) {
+		super(model, Ram_storage, Display, Processor, Price);
+	}
+}
+
+
+
+public class Phone {
+	// STATIC BLOCK
+	static {
+		System.out.println("|                             WELCOME TO THE MOBILE STORE                                    | ");
+	}
+	static {
+		System.out.println("===============================================================================================");
+		System.out.println("                                  HOW CAN I HELP YOU..............");
+	}
+
+	public static void main(String[] args)
+	{
+		System.out.println("===============================================================================================");
+
+		System.out.println("                       COMPLETE YOUR REGISTRATION FIRST TO PROCEED FURTHER...");
+		System.out.println("================================================================================================");
+
+		    Scanner s=new Scanner(System.in); {
+			System.out.println(" ");
+			System.out.println(" -------------------------------------PLEASE ENTER YOUR NAME ------------------------------- ");
+			String userName = s.next();
+			System.out.println(" ------------------------------------ PLEASE ENTER YOUR NUMBER ------------------------------");
+			int userNo = s.nextInt();
+			
+			
+			System.out.println( " ----------------------------------- ENTER YOUR EMAIL -----------------------------------------`");
+			String userMail = s.next();
+			System.out.println("REGISTRATION DONE  SUCCESSFULLY..!!");
+			System.out.println("========================================================================");
+			System.out.println("ACCORDING TO YOUR REQUIREMENT CHOOSE CATEGORY");
+			System.out.println("========================================================================");
+
+// from here user  start entering input
+			System.out.println("PRESS 1 FOR KEYPAD MOBILES");
+			System.out.println("PRESS 2 FOR  LOW BUDGET MOBILES");
+			System.out.println("PRESS 3 FOR MID BUDGET MOBILES");
+			System.out.println("PRESS 4 FOR PREMIUM MOBILES");
+			System.out.println("PRESS 5 FOR FOLDABLE MOBILES");
+			System.out.println("PRESS 6 FOR  TABLETS");
+			System.out.println("PRESS 7 FOR IPAD");
+			System.out.println("========================================================================");
+			
+			
+//====================== keypad ===============================//
+			
+			int n = s.nextInt();
+			// switch case for keypad mobile
+			switch (n) {
+			case 1:
+				System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>> KEYPAD MOBILES <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< ");
+				System.out.println("");
+				System.out.println("PRESS 8 FOR NOKIA");
+				System.out.println("PRESS 9 FOR SAMSUNG");
+				System.out.println("PRESS 10 FOR LAVA");
+				System.out.println("========================================================================");
+
+			
+				n = s.nextInt();
+				// SWITCH CASE FOR Nokia Mobile
+				switch (n) 
+				{
+				case 8:
+					System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> NOKIA MOBILES <<<<<<<<<<<<<<<<<<<<<<<<<<<<");
+					System.out.println("");
+					System.out.println("PRESS 11 FOR Nokia105");
+					System.out.println("PRESS 12 FOR Nokia3310");
+					System.out.println("PRESS 13 FOR Nokia105 plus ");
+					System.out.println("PRESS 14 FOR Nokia216");
+					System.out.println("PRESS 15 FOR Nokia1100");
+					System.out.println("========================================================================");
+					
+						
+					
+					
+				
+					n = s.nextInt();
+					switch (n) {
+					case 11:
+						System.out.println("NOKIA105");
+						System.out.println("");
+						Nokia105 z = new Nokia105("NOKIA105", "1GB/8GB", "10hz", "P1", 1999);
+
+						System.out.println("Model: "+z.model);
+						System.out.println("Ram_storage: "+z.Ram_storage);
+						System.out.println("Display: "+z.Display);
+						System.out.println("Processor: "+z.Processor);
+						System.out.println("Price: "+z.Price);
+						System.out.println("WOULD YOU LIKE TO BUY");
+						System.out.println("PRESS 116 TO BUY IN CASH");
+						System.out.println("PRESS 117 TO BUY IN EMI");
+						System.out.println("========================================================================");
+
+						
+					
+						n = s.nextInt();
+						switch (n) {
+						case 116:
+							System.out.println(" ORDER HAS BEEN PLACED..!!"
+									+ "THANKYOU FOR SHOPPING..!!");
+							break;
+
+						case 117:
+
+							System.out.println(" ORDER HAS BEEN PLACED..!! THANKYOU FOR SHOPPING..!!");
+							break;
+							default:
+								System.out.println("ENTER VALID INPUT..");
+								
+						}
+						return;
+					case 12:
+						System.out.println("NOKIA3310");
+						System.out.println("");
+						Nokia3310 b = new Nokia3310("NOKIA3310", "1GB/8GB", "10hz", "N1", 2999);
+						System.out.println("Model: "+b.model);
+						System.out.println("Ram_storage: "+b.Ram_storage);
+						System.out.println("Display: "+b.Display);
+						System.out.println("Processor:"+b.Processor);
+						System.out.println("Price: "+b.Price);
+						System.out.println("WOULD YOU LIKE TO BUY");
+						System.out.println("PRESS 118 TO BUY IN CASH");
+						System.out.println("PRESS 119 TO BUY IN EMI");
+						System.out.println("========================================================================");
+
+						
+					
+						n = s.nextInt();
+						switch (n) {
+						case 118:
+							System.out.println("  ORDER HAS BEEN PLACED..!! THANKYOU FOR SHOPPING..!!");
+							break;
+						case 119:
+							System.out.println(" ORDER HAS BEEN PLACED..!!  THANKYOU FOR SHOPPING..!!");
+							break;
+						default:
+							System.out.println("ENTER VALID INPUT..");
+							
+						}
+						
+						return;
+					case 13:
+						System.out.println("NOKIA105 plus");
+						System.out.println("");
+						Nokia105_plus c = new Nokia105_plus("NOKIA105 plus", "1GB/8GB", "30hz", "F1", 2499);
+						System.out.println("model:"+c.model);
+						System.out.println("Ram_storage:"+c.Ram_storage);
+						System.out.println("Display:"+c.Display);
+						System.out.println("Processor:"+c.Processor);
+						System.out.println("Price:"+c.Price);
+						System.out.println("WOULD YOU LIKE TO BUY");
+						System.out.println("PRESS 120 TO BUY IN CASH");
+						System.out.println("PRESS 121 TO BUY IN EMI");
+						System.out.println("========================================================================");
+
+						
+				
+						
+						n = s.nextInt();
+						switch (n) {
+						case 120:
+							System.out.println(" ORDER HAS BEEN PLACED..!!  THANKYOU FOR SHOPPING..!!");
+							break;
+						case 121:
+							System.out.println(" ORDER HAS BEEN PLACED..!!  THANKYOU FOR SHOPPING..!!");
+							break;
+						default:
+							System.out.println("ENTER VALID INPUT..");
+							break;
+						}
+						return;
+					case 14:
+
+						System.out.println("NOKIA216");
+						System.out.println("");
+						Nokia216 d = new Nokia216("NOKIA216", "1GB/8GB", "30hz", "F1", 2499);
+						System.out.println("model:"+d.model);
+						System.out.println("Ram_storage:"+d.Ram_storage);
+						System.out.println("Display:"+d.Display);
+						System.out.println("Processor:"+d.Processor);
+						System.out.println("Price:"+d.Price);
+						System.out.println("WOULD YOU LIKE TO BUY");
+						System.out.println("PRESS 122 TO BUY IN CASH");
+						System.out.println("PRESS 123 TO BUY IN EMI");
+						System.out.println("========================================================================");
+
+						
+						
+						n = s.nextInt();
+						switch (n) {
+						case 122:
+							System.out.println(" ORDER HAS BEEN PLACED..!!  THANKYOU FOR SHOPPING..!!");
+							break;
+						case 123:
+							System.out.println(" ORDER HAS BEEN PLACED..!!  THANKYOU FOR SHOPPING..!!");
+							break;
+						default:
+							System.out.println("ENTER VALID INPUT..");
+							break;
+						}
+						return;
+					case 15:
+
+						System.out.println("NOKIA1100");
+						System.out.println("");
+						Nokia1100 e = new Nokia1100("NOKIA1100", "1GB/8GB", "30hz", "F1", 1499);
+						System.out.println("model:"+e.model);
+						System.out.println("Ram_storage:"+e.Ram_storage);
+						System.out.println("Display:"+e.Display);
+						System.out.println("Processor:"+e.Processor);
+						System.out.println("Price:"+e.Price);
+						System.out.println("WOULD YOU LIKE TO BUY");
+						System.out.println("PRESS 124 TO BUY IN CASH");
+						System.out.println("PRESS 125 TO BUY IN EMI");
+						System.out.println("========================================================================");
+
+						
+						
+						n = s.nextInt();
+						switch (n) {
+						case 124:
+							System.out.println("  ORDER HAS BEEN PLACED..!!"
+									+ "THANKYOU FOR SHOPPING..!!");
+							break;
+						case 125:
+							System.out.println(" ORDER HAS BEEN PLACED..!!"
+									+ " THANKYOU FOR SHOPPING..!!");
+							break;
+						default:
+							System.out.println("ENTER VALID INPUT..");
+							return;
+						}
+					}
+					return;
+			     ///Nokia Category ends
+					
+			case 9:
+				//switch case for samsung keypad phones
+						System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>> SAMSUNG MOBILES <<<<<<<<<<<<<<<<<<<<<<<");
+						System.out.println("");
+						System.out.println("PRESS 16 FOR SAMSUNG GURU");
+						System.out.println("PRESS 17 FOR SAMSUNG GURUFM");
+						System.out.println("PRESS 18 FOR SAMSUNG METRO ");
+						System.out.println("PRESS 19 FOR SAMSUNG E 1200");
+						System.out.println("PRESS 20 FOR SAMSUNG B312");
+						System.out.println("========================================================================");
+
+
+						n = s.nextInt();
+						switch (n) {
+						// Switch case for samsung mobiles
+						case 16:
+							System.out.println("SAMSUNG GURU");
+							System.out.println("");
+							samsung_guru S1 = new samsung_guru("SAMSUNG GURU", "1GB/8GB", "10hz", "P1", 1999);
+							System.out.println("model:"+S1.model);
+							System.out.println("Ram_storage:"+S1.Ram_storage);
+							System.out.println("Display:"+S1.Display);
+							System.out.println("Processor:"+S1.Processor);
+							System.out.println("Price:"+S1.Price);
+							System.out.println("WOULD YOU LIKE TO BUY");
+							System.out.println("PRESS 155 TO BUY IN CASH");
+							System.out.println("PRESS 156 TO BUY IN EMI");
+							System.out.println("========================================================================");
+
+						
+							n = s.nextInt();
+							switch (n) {
+							case 155:
+								System.out.println(" ORDER HAS BEEN PLACED..!!"
+										+ " THANKYOU FOR SHOPPING..!!");
+								break;
+							case 156:
+								System.out.println(" ORDER HAS BEEN PLACED..!!"
+										+ " THANKYOU FOR SHOPPING..!!");
+								break;
+							default:
+								System.out.println("ENTER VALID INPUT..");
+							}
+							return;
+						case 17:
+
+							System.out.println("SAMSUNG GURUFM");
+							System.out.println("");
+							samsung_guruFM S2 = new samsung_guruFM("SAMSUNG GURUFM", "1GB/8GB", "10hz", "P1", 1999);
+							System.out.println("model:"+S2.model);
+							System.out.println("Ram_storage:"+S2.Ram_storage);
+							System.out.println("Display:"+S2.Display);
+							System.out.println("Processor:"+S2.Processor);
+							System.out.println("Price:"+S2.Price);
+							System.out.println("WOULD YOU LIKE TO BUY");
+							System.out.println("PRESS 176 TO BUY IN CASH");
+							System.out.println("PRESS 177 TO BUY IN EMI");
+
+							System.out.println("========================================================================");
+
+							n = s.nextInt();
+							switch (n) {
+							case 176:
+								System.out.println(" ORDER HAS BEEN PLACED..!!"
+										+ " THANKYOU FOR SHOPPING..!!");
+								break;
+							case 177:
+								System.out.println("  ORDER HAS BEEN PLACED..!!"
+										+ "THANKYOU FOR SHOPPING..!!");
+								break;
+							default:
+								System.out.println("ENTER VALID INPUT..");
+							}
+							return;
+						case 18:
+							System.out.println("SAMSUNG METRO");
+							System.out.println("");
+							samsung_metro S3 = new samsung_metro("SAMSUNG METRO", "1GB/8GB", "10hz", "P1", 2899);
+							System.out.println("model:"+S3.model);
+							System.out.println("Ram_storage:"+S3.Ram_storage);
+							System.out.println("Display:"+S3.Display);
+							System.out.println("Processor:"+S3.Processor);
+							System.out.println("Price:"+S3.Price);
+							System.out.println("WOULD YOU LIKE TO BUY");
+							System.out.println("PRESS 155 TO BUY IN CASH");
+							System.out.println("PRESS 156 TO BUY IN EMI");
+
+							System.out.println("========================================================================");
+
+							n = s.nextInt();
+							switch (n) {
+							case 155:
+								System.out.println(" ORDER HAS BEEN PLACED..!!"
+										+ " THANKYOU FOR SHOPPING..!!");
+								break;
+							case 156:
+								System.out.println(" ORDER HAS BEEN PLACED..!!"
+										+ " THANKYOU FOR SHOPPING..!!");
+								break;
+							default:
+								System.out.println("ENTER VALID INPUT..");
+							}
+							return;
+						case 19:
+							System.out.println("SAMSUNG E1200");
+							System.out.println("");
+							samsung_E1200 S4 = new samsung_E1200("SAMSUNG E1200", "1GB/8GB", "10hz", "P1", 1999);
+							System.out.println("model:"+S4.model);
+							System.out.println("Ram_storage:"+S4.Ram_storage);
+							System.out.println("Display:"+S4.Display);
+							System.out.println("Processor:"+S4.Processor);
+							System.out.println("Price:"+S4.Price);
+							System.out.println("WOULD YOU LIKE TO BUY");
+							System.out.println("PRESS 153 TO BUY IN CASH");
+							System.out.println("PRESS 154 TO BUY IN EMI");
+
+							System.out.println("========================================================================");
+
+							n = s.nextInt();
+							switch (n) {
+							case 153:
+								System.out.println("  ORDER HAS BEEN PLACED..!!"
+										+ "THANKYOU FOR SHOPPING..!!");
+								break;
+							case 154:
+								System.out.println("  ORDER HAS BEEN PLACED..!!"
+										+ "THANKYOU FOR SHOPPING..!!");
+								break;
+							default:
+								System.out.println("ENTER VALID INPUT..");
+							}
+							return;
+							
+						case 20:
+							System.out.println("SAMSUNG B312");
+							System.out.println("");
+							samsung_b312 S5 = new samsung_b312("SAMSUNG B312", "1GB/8GB", "10hz", "P1", 1999);
+							System.out.println("model:"+S5.model);
+							System.out.println("Ram_storage:"+S5.Ram_storage);
+							System.out.println("Display:"+S5.Display);
+							System.out.println("Processor:"+S5.Processor);
+							System.out.println("Price:"+S5.Price);
+							System.out.println("WOULD YOU LIKE TO BUY");
+							System.out.println("PRESS 151 TO BUY IN CASH");
+							System.out.println("PRESS 152 TO BUY IN EMI");
+
+							System.out.println("========================================================================");
+
+							n = s.nextInt();
+							switch (n) {
+							case 151:
+								System.out.println("  ORDER HAS BEEN PLACED..!!"
+										+ "THANKYOU FOR SHOPPING..!!");
+								break;
+							case 152:
+								System.out.println(" ORDER HAS BEEN PLACED..!!"
+										+ " THANKYOU FOR SHOPPING..!!");
+								break;
+							default:
+								System.out.println("ENTER VALID INPUT..");
+							}
+							
+						}
+						return;
+						
+						case 10:
+							// switch case for lava
+							System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>> LAVA MOBILES <<<<<<<<<<<<<<<<<<<<<<<<<<<<");
+							System.out.println("");
+							System.out.println("PRESS 34 FOR LAVA 209");
+							System.out.println("PRESS 35 FOR LAVA 345");
+							System.out.println("PRESS 36 FOR LAVA 234");
+							System.out.println("========================================================================");
+
+
+							n = s.nextInt();
+							switch (n) {
+							case 34:
+								System.out.println("LAVA209");
+								System.out.println("");
+								lava209 L1 = new lava209("LAVA209", "1GB/8GB", "10hz", "P1", 999);
+								System.out.println("model:"+L1.model);
+								System.out.println("Ram_storage:"+L1.Ram_storage);
+								System.out.println("Display:"+L1.Display);
+								System.out.println("Processor:"+L1.Processor);
+								System.out.println("Price:"+L1.Price);
+								System.out.println("WOULD YOU LIKE TO BUY");
+								System.out.println("PRESS 234 TO BUY IN CASH");
+								System.out.println("PRESS 235 TO BUY IN EMI");
+								System.out.println("========================================================================");
+
+
+								n = s.nextInt();
+								switch (n) {
+								case 234:
+									System.out.println(" ORDER HAS BEEN PLACED..!!"
+											+ " THANKYOU FOR SHOPPING..!!");
+									break;
+								case 235:
+									System.out.println(" ORDER HAS BEEN PLACED..!!"
+											+ " THANKYOU FOR SHOPPING..!!");
+									break;
+								default:
+									System.out.println("ENTER VALID INPUT..");
+								}
+								return;
+							case 35:
+								System.out.println("LAVA345");
+								System.out.println("");
+								lava345 L2 = new lava345("LAVA345", "1GB/8GB", "10hz", "P1", 899);
+								System.out.println("model:"+L2.model);
+								System.out.println("Ram_storage:"+L2.Ram_storage);
+								System.out.println("Display:"+L2.Display);
+								System.out.println("Processor:"+L2.Processor);
+								System.out.println("Price:"+L2.Price);
+								System.out.println("WOULD YOU LIKE TO BUY");
+								System.out.println("PRESS 236 TO BUY IN CASH");
+								System.out.println("PRESS 237 TO BUY IN EMI");
+
+								System.out.println("========================================================================");
+
+								n = s.nextInt();
+								switch (n) {
+								case 236:
+									System.out.println(" ORDER HAS BEEN PLACED..!!"
+											+ " THANKYOU FOR SHOPPING..!!");
+									break;
+								case 237:
+									System.out.println("  ORDER HAS BEEN PLACED..!!"
+											+ "THANKYOU FOR SHOPPING..!!");
+									break;
+								default:
+									System.out.println("ENTER VALID INPUT..");
+								}
+								return;
+								
+							case 36:
+								System.out.println("LAVA234");
+								System.out.println("");
+								lava234 L3 = new lava234("LAVA234", "1GB/8GB", "10hz", "P1", 899);
+								System.out.println("model:"+L3.model);
+								System.out.println("Ram_storage:"+L3.Ram_storage);
+								System.out.println("Display:"+L3.Display);
+								System.out.println("Processor:"+L3.Processor);
+								System.out.println("Price:"+L3.Price);
+								System.out.println("WOULD YOU LIKE TO BUY");
+								System.out.println("PRESS 238 TO BUY IN CASH");
+								System.out.println("PRESS 239 TO BUY IN EMI");
+
+								System.out.println("========================================================================");
+
+								n = s.nextInt();
+								switch (n) {
+								case 238:
+									System.out.println(" ORDER HAS BEEN PLACED..!!"
+											+ " THANKYOU FOR SHOPPING..!!");
+									break;
+								case 239:
+									System.out.println(" ORDER HAS BEEN PLACED..!!"
+											+ " THANKYOU FOR SHOPPING..!!");
+									break;
+								default:
+									System.out.println("ENTER VALID INPUT..");
+								}
+								return;
+
+							}
+							return;
+				}
+			
+						
+							
+						case 2:
+							
+							System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>LOW BUDGET MOBILES <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<");
+							System.out.println("");
+							System.out.println("PRESS 88 FOR XIAOMI");
+							System.out.println("PRESS 89 FOR OPPO");
+							System.out.println("PRESS 90 FOR VIVO");
+							System.out.println("PRESS 91 FOR SAMSUNG");
+							System.out.println("PRESS 92 FOR JIO");
+							System.out.println("========================================================================");
+
+
+							n = s.nextInt();
+							switch (n) {
+							case 88:
+								// switch case for xiaomi
+								System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>> XIAOMI MOBILES <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<");
+								System.out.println("");
+								System.out.println("PRESS 111 FOR XIAOMI 11");
+								System.out.println("PRESS 122 FOR XIAOMI 11 5g");
+								System.out.println("PRESS 133 FOR XIAOMI PRO");
+								System.out.println("PRESS 144 FOR XIAOMI 10");
+								System.out.println("PRESS 155 FOR XIAOMI 10 PRO");
+								System.out.println("========================================================================");
+
+								n = s.nextInt();
+								switch (n) {
+								case 111:
+									System.out.println("XIAOMI 11");
+									System.out.println("");
+									xiaomi_11 X1 = new xiaomi_11("XIAOMI 11", "4GB/64GB", "10hz", "P1", 11999);
+									System.out.println("model:"+X1.model);
+									System.out.println("Ram_storage:"+X1.Ram_storage);
+									System.out.println("Display:"+X1.Display);
+									System.out.println("Processor:"+X1.Processor);
+									System.out.println("Price:"+X1.Price);
+									System.out.println("WOULD YOU LIKE TO BUY");
+									System.out.println("PRESS 338 TO BUY IN CASH");
+									System.out.println("PRESS 339 TO BUY IN EMI");
+
+									System.out.println("========================================================================");
+
+									n = s.nextInt();
+									switch (n) {
+									case 338:
+										System.out.println(" ORDER HAS BEEN PLACED..!!"
+												+ " THANKYOU FOR SHOPPING..!!");
+										break;
+									case 339:
+										System.out.println(" ORDER HAS BEEN PLACED..!!"
+												+ " THANKYOU FOR SHOPPING..!!");
+										break;
+									default:
+										System.out.println("ENTER VALID INPUT..");
+									}
+									return;
+								case 122:
+									System.out.println("XIAOMI 11 5g");
+									System.out.println("");
+									xiaomi_11_5g X2 = new xiaomi_11_5g("XIAOMI 11 5g", "4GB/64GB", "10hz", "P1", 11999);
+									System.out.println("model:"+X2.model);
+									System.out.println("Ram_storage:"+X2.Ram_storage);
+									System.out.println("Display:"+X2.Display);
+									System.out.println("Processor:"+X2.Processor);
+									System.out.println("Price:"+X2.Price);
+									System.out.println("WOULD YOU LIKE TO BUY");
+									System.out.println("PRESS 438 TO BUY IN CASH");
+									System.out.println("PRESS 439 TO BUY IN EMI");
+
+									System.out.println("========================================================================");
+
+									n = s.nextInt();
+									switch (n) {
+									case 438:
+										System.out.println("  ORDER HAS BEEN PLACED..!!"
+												+ "THANKYOU FOR SHOPPING..!!");
+										break;
+									case 439:
+										System.out.println("  ORDER HAS BEEN PLACED..!!"
+												+ "THANKYOU FOR SHOPPING..!!");
+										break;
+									default:
+										System.out.println("ENTER VALID INPUT..");
+									}
+									return;
+								case 133:
+									System.out.println("XIAOMI 11 PRO");
+									System.out.println("");
+									xiaomi_11_pro X3 = new xiaomi_11_pro("XIAOMI 11 PRO", "4GB/64GB", "10hz", "P1", 11999);
+									System.out.println("model:"+X3.model);
+									System.out.println("Ram_storage:"+X3.Ram_storage);
+									System.out.println("Display:"+X3.Display);
+									System.out.println("Processor:"+X3.Processor);
+									System.out.println("Price:"+X3.Price);
+									System.out.println("WOULD YOU LIKE TO BUY");
+									System.out.println("PRESS 538 TO BUY IN CASH");
+									System.out.println("PRESS 539 TO BUY IN EMI");
+
+									System.out.println("========================================================================");
+
+									n = s.nextInt();
+									switch (n) {
+									case 538:
+										System.out.println("  ORDER HAS BEEN PLACED..!!"
+												+ "THANKYOU FOR SHOPPING..!!");
+										break;
+									case 539:
+										System.out.println(" ORDER HAS BEEN PLACED..!!"
+												+ " THANKYOU FOR SHOPPING..!!");
+										break;
+									default:
+										System.out.println("ENTER VALID INPUT..");
+									}
+									return;
+								case 144:
+									System.out.println("XIAOMI 10");
+									System.out.println("");
+									xiaomi_10 X4 = new xiaomi_10("XIAOMI 10", "4GB/64GB", "10hz", "P1", 11999);
+									System.out.println("model:"+X4.model);
+									System.out.println("Ram_storage:"+X4.Ram_storage);
+									System.out.println("Display:"+X4.Display);
+									System.out.println("Processor:"+X4.Processor);
+									System.out.println("Price:"+X4.Price);
+									System.out.println("WOULD YOU LIKE TO BUY");
+									System.out.println("PRESS 1338 TO BUY IN CASH");
+									System.out.println("PRESS 2339 TO BUY IN EMI");
+
+									System.out.println("========================================================================");
+
+									n = s.nextInt();
+									switch (n) {
+									case 1338:
+										System.out.println(" ORDER HAS BEEN PLACED..!!"
+												+ " THANKYOU FOR SHOPPING..!!");
+										break;
+									case 2339:
+										System.out.println("  ORDER HAS BEEN PLACED..!!"
+												+ "THANKYOU FOR SHOPPING..!!");
+										break;
+									default:
+										System.out.println("ENTER VALID INPUT..");
+									}
+									return;
+								case 155:
+									System.out.println("XIAOMI 10 PRO");
+									System.out.println("");
+									xiaomi_10_pro X5 = new xiaomi_10_pro("XIAOMI 10 PRO", "4GB/64GB", "10hz", "P1", 11999);
+									System.out.println("model:"+X5.model);
+									System.out.println("Ram_storage:"+X5.Ram_storage);
+									System.out.println("Display:"+X5.Display);
+									System.out.println("Processor:"+X5.Processor);
+									System.out.println("Price:"+X5.Price);
+									System.out.println("WOULD YOU LIKE TO BUY");
+									System.out.println("PRESS 638 TO BUY IN CASH");
+									System.out.println("PRESS 639 TO BUY IN EMI");
+
+									System.out.println("========================================================================");
+
+									n = s.nextInt();
+									switch (n) {
+									case 638:
+										System.out.println(" ORDER HAS BEEN PLACED..!!"
+												+ " THANKYOU FOR SHOPPING..!!");
+										break;
+									case 639:
+										System.out.println(" ORDER HAS BEEN PLACED..!!"
+												+ " THANKYOU FOR SHOPPING..!!");
+										break;
+									default:
+										System.out.println("ENTER VALID INPUT..");
+			                      	}
+			                         return; 
+								}
+								return;
+			                         // switch case for oppo
+								case 89:
+									System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> OPPO MOBILES <<<<<<<<<<<<<<<<<<<");
+									System.out.println("");
+									System.out.println("PRESS 75 FOR OPPO F16");
+									System.out.println("PRESS 76 FOR OPPO F14");
+									System.out.println("PRESS 77 FOR OPPO A2");
+									System.out.println("PRESS 78 FOR OPPO A72");
+									System.out.println("PRESS 79 FOR OPPO F21");
+									System.out.println("========================================================================");
+
+									n = s.nextInt();
+									switch (n) 
+									{
+									case 75:
+										System.out.println("OPPO F16");
+										System.out.println("");
+										oppo_f16 O1 = new oppo_f16("OPPO F16", "4GB/64GB", "10hz", "P1", 11999);
+										System.out.println("model:"+O1.model);
+										System.out.println("Ram_storage:"+O1.Ram_storage);
+										System.out.println("Display:"+O1.Display);
+										System.out.println("Processor:"+O1.Processor);
+										System.out.println("Price:"+O1.Price);
+										System.out.println("WOULD YOU LIKE TO BUY");
+										System.out.println("PRESS 431 TO BUY IN CASH");
+										System.out.println("PRESS 432 TO BUY IN EMI");
+
+										System.out.println("========================================================================");
+
+										n = s.nextInt();
+										switch (n) {
+										case 431:
+											System.out.println("  ORDER HAS BEEN PLACED..!!"
+													+ "THANKYOU FOR SHOPPING..!!");
+											break;
+										case 432:
+											System.out.println("  ORDER HAS BEEN PLACED..!!"
+													+ "THANKYOU FOR SHOPPING..!!");
+											break;
+										default:
+											System.out.println("ENTER VALID INPUT..");
+			                          	}
+			                             return;
+			                             
+									case 76:
+										System.out.println("OPPO F14");
+										System.out.println("");
+										oppo_f14 O2 = new oppo_f14("OPPO F14", "4GB/64GB", "10hz", "P1", 13999);
+										System.out.println("model:"+O2.model);
+										System.out.println("Ram_storage:"+O2.Ram_storage);
+										System.out.println("Display:"+O2.Display);
+										System.out.println("Processor:"+O2.Processor);
+										System.out.println("Price:"+O2.Price);
+										System.out.println("WOULD YOU LIKE TO BUY");
+										System.out.println("PRESS 4331 TO BUY IN CASH");
+										System.out.println("PRESS 4432 TO BUY IN EMI");
+
+										System.out.println("========================================================================");
+
+										n = s.nextInt();
+										switch (n) {
+										case 4331:
+											System.out.println("  ORDER HAS BEEN PLACED..!!"
+													+ "THANKYOU FOR SHOPPING..!!");
+											break;
+										case 4432:
+											System.out.println("  ORDER HAS BEEN PLACED..!!"
+													+ "THANKYOU FOR SHOPPING..!!");
+											break;
+										default:
+											System.out.println("ENTER VALID INPUT..");
+			                          	}
+			                             return;
+			                             case 77:
+			                            	System.out.println("OPPO A2");
+											System.out.println("");
+											oppo_a2 O3 = new oppo_a2("OPPO A2", "4GB/64GB", "10hz", "P1", 12999);
+											System.out.println("model:"+O3.model);
+											System.out.println("Ram_storage:"+O3.Ram_storage);
+											System.out.println("Display:"+O3.Display);
+											System.out.println("Processor:"+O3.Processor);
+											System.out.println("Price:"+O3.Price);
+											System.out.println("WOULD YOU LIKE TO BUY");
+											System.out.println("PRESS 531 TO BUY IN CASH");
+											System.out.println("PRESS 532 TO BUY IN EMI");
+
+											System.out.println("========================================================================");
+
+											n = s.nextInt();
+											switch (n) {
+											case 531:
+												System.out.println("  ORDER HAS BEEN PLACED..!!"
+														+ "THANKYOU FOR SHOPPING..!!");
+												break;
+											case 532:
+												System.out.println("  ORDER HAS BEEN PLACED..!!"
+														+ "THANKYOU FOR SHOPPING..!!");
+												break;
+											default:
+												System.out.println("ENTER VALID INPUT..");
+			                              	}
+			                                 return;
+			                                 
+			                             case 78:
+			                            	 System.out.println("OPPO A72");
+			 									System.out.println("");
+			 									oppo_a72 O4 = new oppo_a72("OPPO A72", "4GB/64GB", "10hz", "P1", 12999);
+			 									System.out.println("model:"+O4.model);
+												System.out.println("Ram_storage:"+O4.Ram_storage);
+												System.out.println("Display:"+O4.Display);
+												System.out.println("Processor:"+O4.Processor);
+												System.out.println("Price:"+O4.Price);
+			 									System.out.println("WOULD YOU LIKE TO BUY");
+			 									System.out.println("PRESS 631 TO BUY IN CASH");
+			 									System.out.println("PRESS 632 TO BUY IN EMI");
+
+			 									System.out.println("========================================================================");
+
+			 									n = s.nextInt();
+			 									switch (n) {
+			 									case 631:
+			 										System.out.println(" ORDER HAS BEEN PLACED..!!"
+			 												+ " THANKYOU FOR SHOPPING..!!");
+			 										break;
+			 									case 632:
+			 										System.out.println("  ORDER HAS BEEN PLACED..!!"
+			 												+ "THANKYOU FOR SHOPPING..!!");
+			 										break;
+			 									default:
+			 										System.out.println("ENTER VALID INPUT..");
+			 	                              	}
+			 	                                 return;
+			 	                                 
+			                             case 79:
+			                            	    System.out.println("OPPO F21");
+			 									System.out.println("");
+			 									oppo_f21 O5 = new oppo_f21("OPPO F21", "4GB/64GB", "10hz", "P1", 12999);
+			 									System.out.println("model:"+O5.model);
+												System.out.println("Ram_storage:"+O5.Ram_storage);
+												System.out.println("Display:"+O5.Display);
+												System.out.println("Processor:"+O5.Processor);
+												System.out.println("Price:"+O5.Price);
+			 									System.out.println("WOULD YOU LIKE TO BUY");
+			 									System.out.println("PRESS 631 TO BUY IN CASH");
+			 									System.out.println("PRESS 632 TO BUY IN EMI");
+
+			 									System.out.println("========================================================================");
+
+			 									n = s.nextInt();
+			 									switch (n) {
+			 									case 631:
+			 										System.out.println(" "
+			 												+ " ORDER HAS BEEN PLACED..!!THANKYOU FOR SHOPPING..!!");
+			 										break;
+			 									case 632:
+			 										System.out.println("  ORDER HAS BEEN PLACED..!!"
+			 												+ "THANKYOU FOR SHOPPING..!!");
+			 										break;
+			 									default:
+			 										System.out.println("ENTER VALID INPUT..");
+			 	                              	}
+			 	                                 return;
+									}
+									return;
+			 	                             // switch case for vivo    
+			                             case 90:
+			                            	System.out.println(">>>>>>>>>>>>>>>>>>>>>>> VIVO MOBILES <<<<<<<<<<<<<<<<<<<<<<<<<<<");
+			 								System.out.println("");
+			 								System.out.println("PRESS 55 FOR VIVO V15");
+			 								System.out.println("PRESS 56 FOR VIVO V19");
+			 								System.out.println("PRESS 57 FOR VIVO 1981");
+			 								System.out.println("PRESS 58 FOR VIVO V25");
+			 								System.out.println("PRESS 59 FOR VIVO 17");
+			 								System.out.println("========================================================================");
+
+			 								n = s.nextInt();
+			 								switch (n) 
+			 								{
+			 								case 55:
+			 									    System.out.println("VIVO V15");
+				 									System.out.println("");
+				 									vivo_v15 V1 = new vivo_v15("VIVO V15", "4GB/64GB", "10hz", "P1", 12999);
+				 									System.out.println("model:"+V1.model);
+													System.out.println("Ram_storage:"+V1.Ram_storage);
+													System.out.println("Display:"+V1.Display);
+													System.out.println("Processor:"+V1.Processor);
+													System.out.println("Price:"+V1.Price);
+				 									System.out.println("WOULD YOU LIKE TO BUY");
+				 									System.out.println("PRESS 633 TO BUY IN CASH");
+				 									System.out.println("PRESS 634 TO BUY IN EMI");
+
+				 									System.out.println("========================================================================");
+
+				 									n = s.nextInt();
+				 									switch (n) {
+				 									case 633:
+				 										System.out.println(" ORDER HAS BEEN PLACED..!!"
+				 												+ " THANKYOU FOR SHOPPING..!!");
+				 										break;
+				 									case 634:
+				 										System.out.println("  ORDER HAS BEEN PLACED..!!"
+				 												+ "THANKYOU FOR SHOPPING..!!");
+				 										break;
+				 									default:
+				 										System.out.println("ENTER VALID INPUT..");
+				 	                              	}
+				 	                                 return;
+			 								case 56:
+			 									System.out.println("VIVO V19");
+			 									System.out.println("");
+			 									vivo_v19 V2 = new vivo_v19("VIVO V19", "4GB/64GB", "10hz", "P1", 12999);
+			 									System.out.println("model:"+V2.model);
+												System.out.println("Ram_storage:"+V2.Ram_storage);
+												System.out.println("Display:"+V2.Display);
+												System.out.println("Processor:"+V2.Processor);
+												System.out.println("Price:"+V2.Price);
+			 									System.out.println("WOULD YOU LIKE TO BUY");
+			 									System.out.println("PRESS 635 TO BUY IN CASH");
+			 									System.out.println("PRESS 636 TO BUY IN EMI");
+
+			 									System.out.println("========================================================================");
+
+			 									n = s.nextInt();
+			 									switch (n) {
+			 									case 635:
+			 										System.out.println("  ORDER HAS BEEN PLACED..!!"
+			 												+ "THANKYOU FOR SHOPPING..!!");
+			 										break;
+			 									case 636:
+			 										System.out.println(" ORDER HAS BEEN PLACED..!!"
+			 												+ " THANKYOU FOR SHOPPING..!!");
+			 										break;
+			 									default:
+			 										System.out.println("ENTER VALID INPUT..");
+			 	                              	}
+			 	                                 return;
+			 								case 57:
+			 									System.out.println("VIVO 1981");
+			 									System.out.println("");
+			 									vivo_1981 V3 = new vivo_1981("VIVO 1981", "4GB/64GB", "10hz", "P1", 12999);
+			 									System.out.println("model:"+V3.model);
+												System.out.println("Ram_storage:"+V3.Ram_storage);
+												System.out.println("Display:"+V3.Display);
+												System.out.println("Processor:"+V3.Processor);
+												System.out.println("Price:"+V3.Price);
+			 									System.out.println("WOULD YOU LIKE TO BUY");
+			 									System.out.println("PRESS 637 TO BUY IN CASH");
+			 									System.out.println("PRESS 638 TO BUY IN EMI");
+
+			 									System.out.println("========================================================================");
+
+			 									n = s.nextInt();
+			 									switch (n) {
+			 									case 637:
+			 										System.out.println(" ORDER HAS BEEN PLACED..!!"
+			 												+ " THANKYOU FOR SHOPPING..!!");
+			 										break;
+			 									case 638:
+			 										System.out.println("  ORDER HAS BEEN PLACED..!!"
+			 												+ "THANKYOU FOR SHOPPING..!!");
+			 										break;
+			 									default:
+			 										System.out.println("ENTER VALID INPUT..");
+			 	                              	}
+			 	                                 return;
+			 	                                 
+			 								case 58:
+			 									System.out.println("VIVO V25");
+			 									System.out.println("");
+			 									vivo_v25 V4 = new vivo_v25("VIVO V25", "4GB/64GB", "10hz", "P1", 12999);
+			 									System.out.println("model:"+V4.model);
+												System.out.println("Ram_storage:"+V4.Ram_storage);
+												System.out.println("Display:"+V4.Display);
+												System.out.println("Processor:"+V4.Processor);
+												System.out.println("Price:"+V4.Price);
+			 									System.out.println("WOULD YOU LIKE TO BUY");
+			 									System.out.println("PRESS 639 TO BUY IN CASH");
+			 									System.out.println("PRESS 640 TO BUY IN EMI");
+
+			 									System.out.println("========================================================================");
+
+			 									n = s.nextInt();
+			 									switch (n) {
+			 									case 639:
+			 										System.out.println(" ORDER HAS BEEN PLACED..!! THANKYOU FOR SHOPPING..!!");
+			 										break;
+			 									case 640:
+			 										System.out.println("  ORDER HAS BEEN PLACED..!!THANKYOU FOR SHOPPING..!!");
+			 										break;
+			 									default:
+			 										System.out.println("ENTER VALID INPUT..");
+			 	                              	}
+			 	                                 return;
+			 								case 59:
+			 									System.out.println("VIVO V17");
+			 									System.out.println("");
+			 									vivo_v17 V5 = new vivo_v17("VIVO V17", "4GB/64GB", "10hz", "P1", 12999);
+			 									System.out.println("model:"+V5.model);
+												System.out.println("Ram_storage:"+V5.Ram_storage);
+												System.out.println("Display:"+V5.Display);
+												System.out.println("Processor:"+V5.Processor);
+												System.out.println("Price:"+V5.Price);
+			 									System.out.println("WOULD YOU LIKE TO BUY");
+			 									System.out.println("PRESS 641 TO BUY IN CASH");
+			 									System.out.println("PRESS 642 TO BUY IN EMI");
+
+			 									System.out.println("========================================================================");
+
+			 									n = s.nextInt();
+			 									switch (n) {
+			 									case 641:
+			 										System.out.println("  ORDER HAS BEEN PLACED..!!THANKYOU FOR SHOPPING..!!");
+			 										break;
+			 									case 642:
+			 										System.out.println(" ORDER HAS BEEN PLACED..!! THANKYOU FOR SHOPPING..!!");
+			 										break;
+			 									default:
+			 										System.out.println("ENTER VALID INPUT..");
+			 	                              	}
+			 	                                 return;
+			 								}
+			 								return;
+			 	                                 //switch case for samsung1
+			 								case 91:
+			 									System.out.println(">>>>>>>>>>>>>>>>>>>>>> SAMSUNG MOBILES <<<<<<<<<<<<<<<<<<<<<");
+			     								System.out.println("");
+			     								System.out.println("PRESS 551 FOR SAMSUNG A12");
+			     								System.out.println("PRESS 562 FOR SAMSUNG F22");
+			     								System.out.println("PRESS 573 FOR SAMSUNG F14");
+			     								
+			     								System.out.println("========================================================================");
+
+			     								n = s.nextInt();
+			     								switch (n) 
+			     								{
+			     								case 551:
+			     									System.out.println("SAMSUNG A12");
+				 									System.out.println("");
+				 									samsung_a12 SS1 = new samsung_a12("SAMSUNG A12", "4GB/64GB", "10hz", "P1", 12999);
+				 									System.out.println("model:"+SS1.model);
+													System.out.println("Ram_storage:"+SS1.Ram_storage);
+													System.out.println("Display:"+SS1.Display);
+													System.out.println("Processor:"+SS1.Processor);
+													System.out.println("Price:"+SS1.Price);
+				 									System.out.println("WOULD YOU LIKE TO BUY");
+				 									System.out.println("PRESS 639 TO BUY IN CASH");
+				 									System.out.println("PRESS 640 TO BUY IN EMI");
+
+				 									System.out.println("========================================================================");
+
+				 									n = s.nextInt();
+				 									switch (n) {
+				 									case 639:
+				 										System.out.println(" ORDER HAS BEEN PLACED..!! THANKYOU FOR SHOPPING..!!");
+				 										break;
+				 									case 640:
+				 										System.out.println(" ORDER HAS BEEN PLACED..!! THANKYOU FOR SHOPPING..!!");
+				 										break;
+				 									default:
+				 										System.out.println("ENTER VALID INPUT..");
+				 	                              	}
+				 	                                 return;
+			     								case 562:
+			     									System.out.println("SAMSUNG F22");
+				 									System.out.println("");
+				 									samsung_F22 SS2 = new samsung_F22("SAMSUNG F22", "4GB/64GB", "10hz", "P1", 12999);
+				 									System.out.println("model:"+SS2.model);
+													System.out.println("Ram_storage:"+SS2.Ram_storage);
+													System.out.println("Display:"+SS2.Display);
+													System.out.println("Processor:"+SS2.Processor);
+													System.out.println("Price:"+SS2.Price);
+				 									System.out.println("WOULD YOU LIKE TO BUY");
+				 									System.out.println("PRESS 643 TO BUY IN CASH");
+				 									System.out.println("PRESS 644 TO BUY IN EMI");
+
+				 									System.out.println("========================================================================");
+
+				 									n = s.nextInt();
+				 									switch (n) {
+				 									case 643:
+				 										System.out.println(" ORDER HAS BEEN PLACED..!! THANKYOU FOR SHOPPING..!!");
+				 										break;
+				 									case 644:
+				 										System.out.println("  ORDER HAS BEEN PLACED..!!THANKYOU FOR SHOPPING..!!");
+				 										break;
+				 									default:
+				 										System.out.println("ENTER VALID INPUT..");
+				 	                              	}
+				 	                                 return;
+			     								case 573:
+			     									System.out.println("SAMSUNG F14");
+				 									System.out.println("");
+				 									samsung_F14 SS3 = new samsung_F14("SAMSUNG F14", "4GB/64GB", "10hz", "P1", 12999);
+				 									System.out.println("model:"+SS3.model);
+													System.out.println("Ram_storage:"+SS3.Ram_storage);
+													System.out.println("Display:"+SS3.Display);
+													System.out.println("Processor:"+SS3.Processor);
+													System.out.println("Price:"+SS3.Price);
+				 									System.out.println("WOULD YOU LIKE TO BUY");
+				 									System.out.println("PRESS 645 TO BUY IN CASH");
+				 									System.out.println("PRESS 646 TO BUY IN EMI");
+
+				 									System.out.println("========================================================================");
+
+				 									n = s.nextInt();
+				 									switch (n) {
+				 									case 645:
+				 										System.out.println("  ORDER HAS BEEN PLACED..!!THANKYOU FOR SHOPPING..!!");
+				 										break;
+				 									case 646:
+				 										System.out.println("  ORDER HAS BEEN PLACED..!!THANKYOU FOR SHOPPING..!!");
+				 										break;
+				 									default:
+				 										System.out.println("ENTER VALID INPUT..");
+				 	                              	}
+				 	                                 return;
+			     								}
+			     								return;
+							
+						
+			     								case 92:
+			     									System.out.println("SORRY,THIS ITEM IS OUT OF STOCK..!!");
+			     									return;
+			
+							}
+							return;
+							
+			     								case 3:
+			     									System.out.println(">>>>>>>>>>>>>>>>> MID BUDGET MOBILES<<<<<<<<<<<<<<<<<<<<  ");
+			     									System.out.println("");
+			     									System.out.println("PRESS 881 FOR SAMSUNG");
+			     									System.out.println("PRESS 882 FOR REDMI");
+			     									System.out.println("PRESS 883 FOR VIVO");
+			     									System.out.println("========================================================================");
+
+			     									n = s.nextInt();
+				 									switch (n)
+				 									{
+				 									case 881:
+				 										
+				 										System.out.println(">>>>>>>>>>>>>>>>>>> SAMSUNG MOBILES <<<<<<<<<<<<<<<<<<<<<<<");
+					     								System.out.println("");
+					     								System.out.println("PRESS 5551 FOR SAMSUNG F34");
+					     								System.out.println("PRESS 5562 FOR SAMSUNG A72");
+					     								System.out.println("PRESS 5573 FOR SAMSUNG A23");
+					     								System.out.println("========================================================================");
+
+					     								//switch case for samsung
+					     								n = s.nextInt();
+					     								switch (n) 
+					     								{
+					     								case 5551:
+					     									System.out.println("SAMSUNG F34");
+						 									System.out.println("");
+						 									samsung1_F34 S13 = new samsung1_F34("SAMSUNG F34", "4GB/64GB", "10hz", "P1", 12999);
+						 									System.out.println("model:"+S13.model);
+															System.out.println("Ram_storage:"+S13.Ram_storage);
+															System.out.println("Display:"+S13.Display);
+															System.out.println("Processor:"+S13.Processor);
+															System.out.println("Price:"+S13.Price);
+						 									System.out.println("WOULD YOU LIKE TO BUY");
+						 									System.out.println("PRESS 647 TO BUY IN CASH");
+						 									System.out.println("PRESS 648 TO BUY IN EMI");
+
+						 									System.out.println("========================================================================");
+
+						 									n = s.nextInt();
+						 									switch (n) {
+						 									case 647:
+						 										System.out.println("  ORDER HAS BEEN PLACED..!!THANKYOU FOR SHOPPING..!!");
+						 										break;
+						 									case 648:
+						 										System.out.println(" ORDER HAS BEEN PLACED..!! THANKYOU FOR SHOPPING..!!");
+						 										break;
+						 									default:
+						 										System.out.println("ENTER VALID INPUT..");
+						 	                              	}
+						 	                                 return;
+						 	                                 
+				 									case 5562:
+				 										System.out.println("SAMSUNG A72");
+					 									System.out.println("");
+					 									samsung1_A72 S14 = new samsung1_A72("SAMSUNG A72", "4GB/64GB", "10hz", "P1", 12999);
+					 									System.out.println("model:"+S14.model);
+														System.out.println("Ram_storage:"+S14.Ram_storage);
+														System.out.println("Display:"+S14.Display);
+														System.out.println("Processor:"+S14.Processor);
+														System.out.println("Price:"+S14.Price);
+					 									System.out.println("WOULD YOU LIKE TO BUY");
+					 									System.out.println("PRESS 649 TO BUY IN CASH");
+					 									System.out.println("PRESS 650 TO BUY IN EMI");
+
+					 									System.out.println("========================================================================");
+
+					 									n = s.nextInt();
+					 									switch (n) {
+					 									case 649:
+					 										System.out.println(" ORDER HAS BEEN PLACED..!! THANKYOU FOR SHOPPING..!!");
+					 										break;
+					 									case 650:
+					 										System.out.println("  ORDER HAS BEEN PLACED..!!THANKYOU FOR SHOPPING..!!");
+					 										break;
+					 									default:
+					 										System.out.println("ENTER VALID INPUT..");
+					 	                              	}
+					 	                                 return;
+					 	                                 
+				 									case 5573:
+				 										System.out.println("SAMSUNG A23");
+					 									System.out.println("");
+					 									samsung1_A23 S15 = new samsung1_A23("SAMSUNG A23", "4GB/64GB", "10hz", "P1", 12999);
+					 									System.out.println("model:"+S15.model);
+														System.out.println("Ram_storage:"+S15.Ram_storage);
+														System.out.println("Display:"+S15.Display);
+														System.out.println("Processor:"+S15.Processor);
+														System.out.println("Price:"+S15.Price);
+					 									System.out.println("WOULD YOU LIKE TO BUY");
+					 									System.out.println("PRESS 649 TO BUY IN CASH");
+					 									System.out.println("PRESS 650 TO BUY IN EMI");
+
+					 									System.out.println("========================================================================");
+
+					 									n = s.nextInt();
+					 									switch (n) {
+					 									case 649:
+					 										System.out.println(" ORDER HAS BEEN PLACED..!! THANKYOU FOR SHOPPING..!!");
+					 										break;
+					 									case 650:
+					 										System.out.println("ORDER HAS BEEN PLACED..!! THANKYOU FOR SHOPPING..!!");
+					 										break;
+					 									default:
+					 										System.out.println("ENTER VALID INPUT..");
+					 	                              	}
+					 	                                 return;
+					     								}
+					     								return;
+				 										
+				 									case 882:
+				 										// switch case for redmi
+				 										System.out.println(">>>>>>>>>>>>>>>>>>>>>>REDMI MOBILES<<<<<<<<<<<<<<<<<<<<<<<<");
+					     								System.out.println("");
+					     								System.out.println("PRESS 5251 FOR REDMI 11 PRO");
+					     								System.out.println("PRESS 5262 FOR REDMI 12 PRO");
+					     								System.out.println("PRESS 5273 FOR REDMI 15 PRO");
+					     								System.out.println("========================================================================");
+
+					     								n = s.nextInt();
+					 									switch (n)
+					 									{
+					 									case 5251:
+					 										System.out.println("REDMI 11 PRO");
+						 									System.out.println("");
+						 									Redmi_11pro R1 = new Redmi_11pro("REDMI 11 PRO", "4GB/64GB", "10hz", "P1", 12999);
+						 									System.out.println("model:"+R1.model);
+															System.out.println("Ram_storage:"+R1.Ram_storage);
+															System.out.println("Display:"+R1.Display);
+															System.out.println("Processor:"+R1.Processor);
+															System.out.println("Price:"+R1.Price);
+						 									System.out.println("WOULD YOU LIKE TO BUY");
+						 									System.out.println("PRESS 651 TO BUY IN CASH");
+						 									System.out.println("PRESS 652 TO BUY IN EMI");
+
+						 									System.out.println("========================================================================");
+
+						 									n = s.nextInt();
+						 									switch (n) {
+						 									case 651:
+						 										System.out.println(" ORDER HAS BEEN PLACED..!!THANKYOU FOR SHOPPING..!!");
+						 										break;
+						 									case 652:
+						 										System.out.println("ORDER HAS BEEN PLACED..!! THANKYOU FOR SHOPPING..!!");
+						 										break;
+						 									default:
+						 										System.out.println("ENTER VALID INPUT..");
+						 	                              	}
+						 	                                 return;
+					 									}
+					 									
+					 									case 5262:
+					 										System.out.println("REDMI 12 PRO");
+						 									System.out.println("");
+						 									Redmi_12pro R2 = new Redmi_12pro("REDMI 12 PRO", "4GB/64GB", "10hz", "P1", 12999);
+						 									System.out.println("model:"+R2.model);
+															System.out.println("Ram_storage:"+R2.Ram_storage);
+															System.out.println("Display:"+R2.Display);
+															System.out.println("Processor:"+R2.Processor);
+															System.out.println("Price:"+R2.Price);
+						 									System.out.println("WOULD YOU LIKE TO BUY");
+						 									System.out.println("PRESS 652 TO BUY IN CASH");
+						 									System.out.println("PRESS 653 TO BUY IN EMI");
+
+						 									System.out.println("========================================================================");
+
+						 									n = s.nextInt();
+						 									switch (n) {
+						 									case 652:
+						 										System.out.println("ORDER HAS BEEN PLACED..!! THANKYOU FOR SHOPPING..!!");
+						 										break;
+						 									case 653:
+						 										System.out.println(" ORDER HAS BEEN PLACED..!!THANKYOU FOR SHOPPING..!!");
+						 										break;
+						 									default:
+						 										System.out.println("ENTER VALID INPUT..");
+						 	                              	}
+						 	                                 return;
+				 									
+				 									
+					 									case 5573:
+					 										System.out.println("REDMI 15 PRO");
+						 									System.out.println("");
+						 									Redmi_15pro R3 = new Redmi_15pro("REDMI 15 PRO", "4GB/64GB", "10hz", "P1", 12999);
+						 									System.out.println("model:"+R3.model);
+															System.out.println("Ram_storage:"+R3.Ram_storage);
+															System.out.println("Display:"+R3.Display);
+															System.out.println("Processor:"+R3.Processor);
+															System.out.println("Price:"+R3.Price);
+						 									System.out.println("WOULD YOU LIKE TO BUY");
+						 									System.out.println("PRESS 654 TO BUY IN CASH");
+						 									System.out.println("PRESS 655 TO BUY IN EMI");
+
+						 									System.out.println("========================================================================");
+
+						 									n = s.nextInt();
+						 									switch (n) {
+						 									case 654:
+						 										System.out.println("ORDER HAS BEEN PLACED..!! THANKYOU FOR SHOPPING..!!");
+						 										break;
+						 									case 655:
+						 										System.out.println(" ORDER HAS BEEN PLACED..!!THANKYOU FOR SHOPPING..!!");
+						 										break;
+						 									default:
+						 										System.out.println("ENTER VALID INPUT..");
+						 	                              	}
+						 	                                 return;
+						 	                                 
+					 									case 883:
+					 										// switch case for vivo
+					 										System.out.println(">>>>>>>>>>>>>>>>>>>>>>VIVO MOBILES<<<<<<<<<<<<<<<<<<<<<<<<");
+						     								System.out.println("");
+						     								System.out.println("PRESS 5351 FOR	VIVO X30 ");
+						     								System.out.println("PRESS 5362 FOR VIVO X70");
+						     								System.out.println("PRESS 5373 FOR VIVO X80");
+						     								System.out.println("========================================================================");
+
+						     								n = s.nextInt();
+						 									switch (n)
+						 									{
+						 									case 5351:
+						 										System.out.println("VIVO X30 ");
+							 									System.out.println("");
+							 									Vivo_X30 V12 = new Vivo_X30("VIVO X30 ", "4GB/64GB", "10hz", "P1", 12999);
+							 									System.out.println("model:"+V12.model);
+																System.out.println("Ram_storage:"+V12.Ram_storage);
+																System.out.println("Display:"+V12.Display);
+																System.out.println("Processor:"+V12.Processor);
+																System.out.println("Price:"+V12.Price);
+							 									System.out.println("WOULD YOU LIKE TO BUY");
+							 									System.out.println("PRESS 656 TO BUY IN CASH");
+							 									System.out.println("PRESS 657 TO BUY IN EMI");
+
+							 									System.out.println("========================================================================");
+
+							 									n = s.nextInt();
+							 									switch (n) {
+							 									case 656:
+							 										System.out.println("ORDER HAS BEEN PLACED..!! THANKYOU FOR SHOPPING..!!");
+							 										break;
+							 									case 657:
+							 										System.out.println("ORDER HAS BEEN PLACED..!! THANKYOU FOR SHOPPING..!!");
+							 										break;
+							 									default:
+							 										System.out.println("ENTER VALID INPUT..");
+							 	                              	}
+							 	                                 return;
+						 									case 5362:
+						 										System.out.println("VIVO X70 ");
+							 									System.out.println("");
+							 									Vivo_X70 V13 = new Vivo_X70("VIVO X70 ", "4GB/64GB", "10hz", "P1", 12999);
+							 									System.out.println("model:"+V13.model);
+																System.out.println("Ram_storage:"+V13.Ram_storage);
+																System.out.println("Display:"+V13.Display);
+																System.out.println("Processor:"+V13.Processor);
+																System.out.println("Price:"+V13.Price);
+							 									System.out.println("WOULD YOU LIKE TO BUY");
+							 									System.out.println("PRESS 658 TO BUY IN CASH");
+							 									System.out.println("PRESS 659 TO BUY IN EMI");
+
+							 									System.out.println("========================================================================");
+
+							 									n = s.nextInt();
+							 									switch (n) {
+							 									case 658:
+							 										System.out.println("ORDER HAS BEEN PLACED..!! THANKYOU FOR SHOPPING..!!");
+							 										break;
+							 									case 659:
+							 										System.out.println("ORDER HAS BEEN PLACED..!! THANKYOU FOR SHOPPING..!!");
+							 										break;
+							 									default:
+							 										System.out.println("ENTER VALID INPUT..");
+							 	                              	}
+							 	                                 return;
+						 									case 5373:
+						 										System.out.println("VIVO X80 ");
+							 									System.out.println("");
+							 									Vivo_X80 V14 = new Vivo_X80("VIVO X80 ", "4GB/64GB", "10hz", "P1", 12999);
+							 									System.out.println("model:"+V14.model);
+																System.out.println("Ram_storage:"+V14.Ram_storage);
+																System.out.println("Display:"+V14.Display);
+																System.out.println("Processor:"+V14.Processor);
+																System.out.println("Price:"+V14.Price);
+							 									System.out.println("WOULD YOU LIKE TO BUY");
+							 									System.out.println("PRESS 660 TO BUY IN CASH");
+							 									System.out.println("PRESS 661 TO BUY IN EMI");
+
+							 									System.out.println("========================================================================");
+
+							 									n = s.nextInt();
+							 									switch (n) {
+							 									case 660:
+							 										System.out.println("ORDER HAS BEEN PLACED..!! THANKYOU FOR SHOPPING..!!");
+							 										break;
+							 									case 661:
+							 										System.out.println("ORDER HAS BEEN PLACED..!! THANKYOU FOR SHOPPING..!!");
+							 										break;
+							 									default:
+							 										System.out.println("ENTER VALID INPUT..");
+							 	                              	}
+							 	                                 return;
+						 									}
+						 									return;
+				 									}
+				 									return;
+							 	                                 
+						 									case 4:
+						 										System.out.println(">>>>>>>>>>>>>>>>>>>>>>PREMIUM RANGE MOBILES<<<<<<<<<<<<<<<<<<<<<<<<");
+							     								System.out.println("");
+							     								System.out.println("PRESS 75 FOR APPLE ");
+							     								System.out.println("PRESS 76 FOR HUAWEI");
+							     								System.out.println("PRESS 77 FOR ONEPLUS");
+							 									System.out.println("========================================================================");
+
+							     								n = s.nextInt();
+							 									switch (n)
+							 									{
+							 									case 75:
+							 										//switch case for apple
+							 										System.out.println(">>>>>>>>>>>>>>>>>>>>>>APPLE MOBILES<<<<<<<<<<<<<<<<<<<<<<<<");
+								     								System.out.println("");
+								     								System.out.println("PRESS 775 FOR IPHONE 11");
+								     								System.out.println("PRESS 776 FOR IPHONE 12");
+								     								System.out.println("PRESS 777 FOR IPHONE 14 PRO");
+								 									System.out.println("========================================================================");
+
+								     								n=s.nextInt();
+								     								switch(n)
+								     								{
+								     								case 775:
+								     									System.out.println("IPHONE 11");
+									 									System.out.println("");
+									 									Iphone_11 I1 = new Iphone_11("IPHONE 11 ", "4GB/64GB", "10hz", "P1", 129999);
+									 									System.out.println("model:"+I1.model);
+																		System.out.println("Ram_storage:"+I1.Ram_storage);
+																		System.out.println("Display:"+I1.Display);
+																		System.out.println("Processor:"+I1.Processor);
+																		System.out.println("Price:"+I1.Price);
+									 									System.out.println("WOULD YOU LIKE TO BUY");
+									 									System.out.println("PRESS 662 TO BUY IN CASH");
+									 									System.out.println("PRESS 663 TO BUY IN EMI");
+
+									 									System.out.println("========================================================================");
+
+									 									n = s.nextInt();
+									 									switch (n) {
+									 									case 662:
+									 										System.out.println("ORDER HAS BEEN PLACED..!! THANKYOU FOR SHOPPING..!!");
+									 										break;
+									 									case 663:
+									 										System.out.println(" ORDER HAS BEEN PLACED..!!THANKYOU FOR SHOPPING..!!");
+									 										break;
+									 									default:
+									 										System.out.println("ENTER VALID INPUT..");
+									 	                              	}
+									 	                                 return;
+								     								case 776:
+								     									System.out.println("IPHONE 12");
+									 									System.out.println("");
+									 									Iphone_12 I2 = new Iphone_12("IPHONE 12 ", "4GB/64GB", "10hz", "P1", 129999);
+									 									System.out.println("model:"+I2.model);
+																		System.out.println("Ram_storage:"+I2.Ram_storage);
+																		System.out.println("Display:"+I2.Display);
+																		System.out.println("Processor:"+I2.Processor);
+																		System.out.println("Price:"+I2.Price);
+									 									System.out.println("WOULD YOU LIKE TO BUY");
+									 									System.out.println("PRESS 664 TO BUY IN CASH");
+									 									System.out.println("PRESS 665 TO BUY IN EMI");
+
+									 									System.out.println("========================================================================");
+
+									 									n = s.nextInt();
+									 									switch (n) {
+									 									case 664:
+									 										System.out.println("ORDER HAS BEEN PLACED..!! THANKYOU FOR SHOPPING..!!");
+									 										break;
+									 									case 665:
+									 										System.out.println("ORDER HAS BEEN PLACED..!! THANKYOU FOR SHOPPING..!!");
+									 										break;
+									 									default:
+									 										System.out.println("ENTER VALID INPUT..");
+									 	                              	}
+									 	                                 return;
+								     								case 777:
+								     									System.out.println("IPHONE 14 PRO");
+									 									System.out.println("");
+									 									Iphone_14_pro I3 = new Iphone_14_pro("IPHONE 14 PRO ", "4GB/64GB", "10hz", "P1", 129999);
+									 									System.out.println("model:"+I3.model);
+																		System.out.println("Ram_storage:"+I3.Ram_storage);
+																		System.out.println("Display:"+I3.Display);
+																		System.out.println("Processor:"+I3.Processor);
+																		System.out.println("Price:"+I3.Price);
+									 									System.out.println("WOULD YOU LIKE TO BUY");
+									 									System.out.println("PRESS 666 TO BUY IN CASH");
+									 									System.out.println("PRESS 667 TO BUY IN EMI");
+
+									 									System.out.println("========================================================================");
+
+									 									n = s.nextInt();
+									 									switch (n) {
+									 									case 666:
+									 										System.out.println("ORDER HAS BEEN PLACED..!! THANKYOU FOR SHOPPING..!!");
+									 										break;
+									 									case 667:
+									 										System.out.println(" ORDER HAS BEEN PLACED..!!THANKYOU FOR SHOPPING..!!");
+									 										break;
+									 									default:
+									 										System.out.println("ENTER VALID INPUT..");
+									 	                              	}
+									 	                                 return;
+								     								}
+								     								return;
+									 	                                 
+								     								case 76:
+								     									//switch case for huawei
+								     									System.out.println(">>>>>>>>>>>>>>>>>>>>>>HUAWEI MOBILES<<<<<<<<<<<<<<<<<<<<<<<<");
+									     								System.out.println("");
+									     								System.out.println("PRESS 875 FOR HUAWEI P20");
+									     								System.out.println("PRESS 876 FOR HUAWEI P30");
+									     								System.out.println("PRESS 877 FOR HUAWEI P40");
+									 									System.out.println("========================================================================");
+
+									     								n=s.nextInt();
+									     								switch(n)
+									     								{
+									     								case 875:
+									     									System.out.println("HUAWEI P20");
+										 									System.out.println("");
+										 									Huawei_P20 P1 = new Huawei_P20("HUAWEI_P20", "4GB/64GB", "10hz", "P1", 129999);
+										 									System.out.println("model:"+P1.model);
+																			System.out.println("Ram_storage:"+P1.Ram_storage);
+																			System.out.println("Display:"+P1.Display);
+																			System.out.println("Processor:"+P1.Processor);
+																			System.out.println("Price:"+P1.Price);
+										 									System.out.println("WOULD YOU LIKE TO BUY");
+										 									System.out.println("PRESS 668 TO BUY IN CASH");
+										 									System.out.println("PRESS 669 TO BUY IN EMI");
+
+										 									System.out.println("========================================================================");
+
+										 									n = s.nextInt();
+										 									switch (n) {
+										 									case 668:
+										 										System.out.println("ORDER HAS BEEN PLACED..!! THANKYOU FOR SHOPPING..!!");
+										 										break;
+										 									case 669:
+										 										System.out.println("ORDER HAS BEEN PLACED..!! THANKYOU FOR SHOPPING..!!");
+										 										break;
+										 									default:
+										 										System.out.println("ENTER VALID INPUT..");
+										 	                              	}
+										 	                                 return;
+									     								case 876:
+									     									System.out.println("HUAWEI_P30");
+										 									System.out.println("");
+										 									Huawei_P30 P2 = new Huawei_P30("HUAWEI_P30", "4GB/64GB", "10hz", "P1", 129999);
+										 									System.out.println("model:"+P2.model);
+																			System.out.println("Ram_storage:"+P2.Ram_storage);
+																			System.out.println("Display:"+P2.Display);
+																			System.out.println("Processor:"+P2.Processor);
+																			System.out.println("Price:"+P2.Price);
+										 									System.out.println("WOULD YOU LIKE TO BUY");
+										 									System.out.println("PRESS 670 TO BUY IN CASH");
+										 									System.out.println("PRESS 671 TO BUY IN EMI");
+
+										 									System.out.println("========================================================================");
+
+										 									n = s.nextInt();
+										 									switch (n) {
+										 									case 670:
+										 										System.out.println("ORDER HAS BEEN PLACED..!! THANKYOU FOR SHOPPING..!!");
+										 										break;
+										 									case 671:
+										 										System.out.println("ORDER HAS BEEN PLACED..!! THANKYOU FOR SHOPPING..!!");
+										 										break;
+										 									default:
+										 										System.out.println("ENTER VALID INPUT..");
+										 	                              	}
+										 	                                 return;
+									     								case 877:
+									     									System.out.println(" HUAWEI P40");
+										 									System.out.println("");
+										 									Huawei_P40 P3 = new Huawei_P40("HUAWEI_P40", "4GB/64GB", "10hz", "P1", 129999);
+										 									System.out.println("model:"+P3.model);
+																			System.out.println("Ram_storage:"+P3.Ram_storage);
+																			System.out.println("Display:"+P3.Display);
+																			System.out.println("Processor:"+P3.Processor);
+																			System.out.println("Price:"+P3.Price);
+										 									System.out.println("WOULD YOU LIKE TO BUY");
+										 									System.out.println("PRESS 672 TO BUY IN CASH");
+										 									System.out.println("PRESS 673 TO BUY IN EMI");
+
+										 									System.out.println("========================================================================");
+
+										 									n = s.nextInt();
+										 									switch (n) {
+										 									case 672:
+										 										System.out.println("ORDER HAS BEEN PLACED..!! THANKYOU FOR SHOPPING..!!");
+										 										break;
+										 									case 673:
+										 										System.out.println("ORDER HAS BEEN PLACED..!! THANKYOU FOR SHOPPING..!!");
+										 										break;
+										 									default:
+										 										System.out.println("ENTER VALID INPUT..");
+										 	                              	}
+										 	                                 return;
+									     								}
+									     								return;
+									     								case 77:
+									     									//switch case for oneplus
+									     									System.out.println(">>>>>>>>>>>>>>>>>>>>>>ONEPLUS MOBILES<<<<<<<<<<<<<<<<<<<<<<<<");
+										     								System.out.println("");
+										     								System.out.println("PRESS 975 FOR ONEPLUS 8");
+										     								System.out.println("PRESS 976 FOR ONEPLUS 9");
+										     								System.out.println("PRESS 977 FOR ONEPLUS 10");
+										 									System.out.println("========================================================================");
+
+										     								n=s.nextInt();
+										     								switch(n)
+										     								{
+										     								case 975:
+										     									System.out.println("ONEPLUS 8");
+											 									System.out.println("");
+											 									Oneplus8 O11 = new Oneplus8("ONEPLUS 8", "4GB/64GB", "10hz", "P1", 129999);
+											 									System.out.println("model:"+O11.model);
+																				System.out.println("Ram_storage:"+O11.Ram_storage);
+																				System.out.println("Display:"+O11.Display);
+																				System.out.println("Processor:"+O11.Processor);
+																				System.out.println("Price:"+O11.Price);
+											 									System.out.println("WOULD YOU LIKE TO BUY");
+											 									System.out.println("PRESS 674 TO BUY IN CASH");
+											 									System.out.println("PRESS 675 TO BUY IN EMI");
+
+											 									System.out.println("========================================================================");
+
+											 									n = s.nextInt();
+											 									switch (n) {
+											 									case 674:
+											 										System.out.println(" ORDER HAS BEEN PLACED..!!THANKYOU FOR SHOPPING..!!");
+											 										break;
+											 									case 675:
+											 										System.out.println("ORDER HAS BEEN PLACED..!! THANKYOU FOR SHOPPING..!!");
+											 										break;
+											 									default:
+											 										System.out.println("ENTER VALID INPUT..");
+											 	                              	}
+											 	                                 return;
+										     								case 976:
+										     									System.out.println("ONEPLUS 9");
+											 									System.out.println("");
+											 									Oneplus9 O12 = new Oneplus9("ONEPLUS 9", "4GB/64GB", "10hz", "P1", 129999);
+											 									System.out.println("model:"+O12.model);
+																				System.out.println("Ram_storage:"+O12.Ram_storage);
+																				System.out.println("Display:"+O12.Display);
+																				System.out.println("Processor:"+O12.Processor);
+																				System.out.println("Price:"+O12.Price);
+											 									System.out.println("WOULD YOU LIKE TO BUY");
+											 									System.out.println("PRESS 334 TO BUY IN CASH");
+											 									System.out.println("PRESS 335 TO BUY IN EMI");
+
+											 									System.out.println("========================================================================");
+
+											 									n = s.nextInt();
+											 									switch (n) {
+											 									case 334:
+											 										System.out.println(" ORDER HAS BEEN PLACED..!!THANKYOU FOR SHOPPING..!!");
+											 										break;
+											 									case 335:
+											 										System.out.println("ORDER HAS BEEN PLACED..!! THANKYOU FOR SHOPPING..!!");
+											 										break;
+											 									default:
+											 										System.out.println("ENTER VALID INPUT..");
+											 	                              	}
+											 	                                 return;
+										     								case 977:
+										     									System.out.println("ONEPLUS 10");
+											 									System.out.println("");
+											 									Oneplus10 O15 = new Oneplus10("ONEPLUS 10", "4GB/64GB", "10hz", "P1", 129999);
+											 									System.out.println("model:"+O15.model);
+																				System.out.println("Ram_storage:"+O15.Ram_storage);
+																				System.out.println("Display:"+O15.Display);
+																				System.out.println("Processor:"+O15.Processor);
+																				System.out.println("Price:"+O15.Price);
+											 									System.out.println("WOULD YOU LIKE TO BUY");
+											 									System.out.println("PRESS 6174 TO BUY IN CASH");
+											 									System.out.println("PRESS 6175 TO BUY IN EMI");
+
+											 									System.out.println("========================================================================");
+
+											 									n = s.nextInt();
+											 									switch (n) {
+											 									case 6174:
+											 										System.out.println("ORDER HAS BEEN PLACED..!! THANKYOU FOR SHOPPING..!!");
+											 										break;
+											 									case 6175:
+											 										System.out.println("ORDER HAS BEEN PLACED..!! THANKYOU FOR SHOPPING..!!");
+											 										break;
+											 									default:
+											 										System.out.println("ENTER VALID INPUT..");
+											 	                              	}
+											 	                                 return;
+										     								}
+										     								return;
+							 									}
+							 									return;
+											 	                            //switch case for foldable phones     
+										     								case 5:
+										     									System.out.println(">>>>>>>>>>>>>>>>>>>>>>FOLDABLE MOBILES<<<<<<<<<<<<<<<<<<<<<<<<");
+											     								System.out.println("");
+											     								System.out.println("PRESS 715 FOR SAMSUNG FLIP ");
+											     								System.out.println("PRESS 716 FOR MI FOLD");
+											 									System.out.println("========================================================================");
+
+											     								n = s.nextInt();
+											 									switch (n)
+											 									{
+											 									case 715:
+											 										System.out.println("SAMSUNG FLIP ");
+												 									System.out.println("");
+												 									samsung_flip F1 = new samsung_flip("SAMSUNG FLIP ", "4GB/64GB", "10hz", "P1", 129999);
+												 									System.out.println("model:"+F1.model);
+																					System.out.println("Ram_storage:"+F1.Ram_storage);
+																					System.out.println("Display:"+F1.Display);
+																					System.out.println("Processor:"+F1.Processor);
+																					System.out.println("Price:"+F1.Price);
+												 									System.out.println("WOULD YOU LIKE TO BUY");
+												 									System.out.println("PRESS 676 TO BUY IN CASH");
+												 									System.out.println("PRESS 677 TO BUY IN EMI");
+
+												 									System.out.println("========================================================================");
+
+												 									n = s.nextInt();
+												 									switch (n) {
+												 									case 676:
+												 										System.out.println("ORDER HAS BEEN PLACED..!! THANKYOU FOR SHOPPING..!!");
+												 										break;
+												 									case 677:
+												 										System.out.println(" ORDER HAS BEEN PLACED..!!THANKYOU FOR SHOPPING..!!");
+												 										break;
+												 									default:
+												 										System.out.println("ENTER VALID INPUT..");
+												 	                              	}
+												 	                                 return;
+											 									
+											 									case 716:
+											 										System.out.println("MI FLIP ");
+												 									System.out.println("");
+												 									mi_fold M1 = new mi_fold("MI FLIP ", "4GB/64GB", "10hz", "P1", 129999);
+												 									System.out.println("model:"+M1.model);
+																					System.out.println("Ram_storage:"+M1.Ram_storage);
+																					System.out.println("Display:"+M1.Display);
+																					System.out.println("Processor:"+M1.Processor);
+																					System.out.println("Price:"+M1.Price);
+												 									System.out.println("WOULD YOU LIKE TO BUY");
+												 									System.out.println("PRESS 678 TO BUY IN CASH");
+												 									System.out.println("PRESS 679 TO BUY IN EMI");
+
+												 									System.out.println("========================================================================");
+
+												 									n = s.nextInt();
+												 									switch (n) {
+												 									case 678:
+												 										System.out.println(" ORDER HAS BEEN PLACED..!!THANKYOU FOR SHOPPING..!!");
+												 										break;
+												 									case 679:
+												 										System.out.println("ORDER HAS BEEN PLACED..!! THANKYOU FOR SHOPPING..!!");
+												 										break;
+												 									default:
+												 										System.out.println("ENTER VALID INPUT..");
+												 	                              	}
+												 	                                 return;
+											 									}
+											 									return;
+											 									
+											 									//switch case for tablets
+											 									case 6:
+											 										System.out.println(">>>>>>>>>>>>>>>>>>>>>> TABLETS <<<<<<<<<<<<<<<<<<<<<<<<");
+												     								System.out.println("");
+												     								System.out.println("PRESS 515 FOR MI TAB");
+												     								System.out.println("PRESS 516 FOR OPPO TAB");
+												 									System.out.println("========================================================================");
+
+												     								n = s.nextInt();
+												 									switch (n)
+												 									{
+												 									case 515:
+												 										System.out.println("MI TAB");
+													 									System.out.println("");
+													 									mi_tab M12 = new mi_tab("MI TAB ", "4GB/64GB", "10hz", "P1", 129999);
+													 									System.out.println("model:"+M12.model);
+																						System.out.println("Ram_storage:"+M12.Ram_storage);
+																						System.out.println("Display:"+M12.Display);
+																						System.out.println("Processor:"+M12.Processor);
+																						System.out.println("Price:"+M12.Price);
+													 									System.out.println("WOULD YOU LIKE TO BUY");
+													 									System.out.println("PRESS 680 TO BUY IN CASH");
+													 									System.out.println("PRESS 681 TO BUY IN EMI");
+
+													 									System.out.println("========================================================================");
+
+													 									n = s.nextInt();
+													 									switch (n) {
+													 									case 680:
+													 										System.out.println(" ORDER HAS BEEN PLACED..!!THANKYOU FOR SHOPPING..!!");
+													 										break;
+													 									case 681:
+													 										System.out.println("ORDER HAS BEEN PLACED..!! THANKYOU FOR SHOPPING..!!");
+													 										break;
+													 									default:
+													 										System.out.println("ENTER VALID INPUT..");
+													 	                              	}
+													 	                                 return;
+												 									case 516:
+												 										System.out.println("OPPO TAB ");
+													 									System.out.println("");
+													 									oppo_tab Q1 = new oppo_tab("OPPO TAB ", "4GB/64GB", "10hz", "P1", 129999);
+													 									System.out.println("model:"+Q1.model);
+																						System.out.println("Ram_storage:"+Q1.Ram_storage);
+																						System.out.println("Display:"+Q1.Display);
+																						System.out.println("Processor:"+Q1.Processor);
+																						System.out.println("Price:"+Q1.Price);
+													 									System.out.println("WOULD YOU LIKE TO BUY");
+													 									System.out.println("PRESS 682 TO BUY IN CASH");
+													 									System.out.println("PRESS 683 TO BUY IN EMI");
+
+													 									System.out.println("========================================================================");
+
+													 									n = s.nextInt();
+													 									switch (n) {
+													 									case 682:
+													 										System.out.println("ORDER HAS BEEN PLACED..!! THANKYOU FOR SHOPPING..!!");
+													 										break;
+													 									case 683:
+													 										System.out.println(" ORDER HAS BEEN PLACED..!!THANKYOU FOR SHOPPING..!!");
+													 										break;
+													 									default:
+													 										System.out.println("ENTER VALID INPUT..");
+													 	                              	}
+													 	                                 return;
+												 									}
+												 									return;
+												 									
+												 									
+												 									
+												 									//switch case for ipads 
+													 	                                 
+												 									case 7:
+												 										System.out.println(">>>>>>>>>>>>>>>>>>>>>> IPADS <<<<<<<<<<<<<<<<<<<<<<<<");
+													     								System.out.println("");
+													     								System.out.println("PRESS 415 FOR IPAD AIR ");
+													     								System.out.println("PRESS 416 FOR IPAD AIR 2 ");
+													     								System.out.println("PRESS 417 FOR IPAD 1");
+													 									System.out.println("========================================================================");
+
+													     								n=s.nextInt();
+													     								switch(n)
+													     								{
+													     								case 415:
+													     									System.out.println("IPAD AIR ");
+														 									System.out.println("");
+														 									ipad_air A1 = new ipad_air("IPAD AIR", "4GB/64GB", "10hz", "P1", 129999);
+														 									System.out.println("model:"+A1.model);
+																							System.out.println("Ram_storage:"+A1.Ram_storage);
+																							System.out.println("Display:"+A1.Display);
+																							System.out.println("Processor:"+A1.Processor);
+																							System.out.println("Price:"+A1.Price);
+														 									System.out.println("WOULD YOU LIKE TO BUY");
+														 									System.out.println("PRESS 684 TO BUY IN CASH");
+														 									System.out.println("PRESS 685 TO BUY IN EMI");
+
+														 									System.out.println("========================================================================");
+
+														 									n = s.nextInt();
+														 									switch (n) {
+														 									case 684:
+														 										System.out.println("ORDER HAS BEEN PLACED..!! THANKYOU FOR SHOPPING..!!");
+														 										break;
+														 									case 685:
+														 										System.out.println("ORDER HAS BEEN PLACED..!! THANKYOU FOR SHOPPING..!!");
+														 										break;
+														 									default:
+														 										System.out.println("ENTER VALID INPUT..");
+														 	                              	}
+														 	                                 return;
+														 	                               
+													     								case 416:
+													     									System.out.println("IPAD AIR 2 ");
+														 									System.out.println("");
+														 									ipad_air2 A2 = new ipad_air2("IPAD AIR 2", "4GB/64GB", "10hz", "P1", 129999);
+														 									System.out.println("model:"+A2.model);
+																							System.out.println("Ram_storage:"+A2.Ram_storage);
+																							System.out.println("Display:"+A2.Display);
+																							System.out.println("Processor:"+A2.Processor);
+																							System.out.println("Price:"+A2.Price);
+														 									System.out.println("WOULD YOU LIKE TO BUY");
+														 									System.out.println("PRESS 686 TO BUY IN CASH");
+														 									System.out.println("PRESS 687 TO BUY IN EMI");
+
+														 									System.out.println("========================================================================");
+
+														 									n = s.nextInt();
+														 									switch (n) {
+														 									case 686:
+														 										System.out.println(" ORDER HAS BEEN PLACED..!!THANKYOU FOR SHOPPING..!!");
+														 										break;
+														 									case 687:
+														 										System.out.println("ORDER HAS BEEN PLACED..!! THANKYOU FOR SHOPPING..!!");
+														 										break;
+														 									default:
+														 										System.out.println("ENTER VALID INPUT..");
+														 	                              	}
+														 	                                 return;
+													     								case 417:
+													     									System.out.println("IPAD 1");
+														 									System.out.println("");
+														 									ipad_1 A3 = new ipad_1("IPAD 1", "4GB/64GB", "10hz", "P1", 129999);
+														 									System.out.println("model:"+A3.model);
+																							System.out.println("Ram_storage:"+A3.Ram_storage);
+																							System.out.println("Display:"+A3.Display);
+																							System.out.println("Processor:"+A3.Processor);
+																							System.out.println("Price:"+A3.Price);
+														 									System.out.println("WOULD YOU LIKE TO BUY");
+														 									System.out.println("PRESS 686 TO BUY IN CASH");
+														 									System.out.println("PRESS 687 TO BUY IN EMI");
+
+														 									System.out.println("========================================================================");
+
+														 									n = s.nextInt();
+														 									switch (n) {
+														 									case 686:
+														 										System.out.println("ORDER HAS BEEN PLACED..!! THANKYOU FOR SHOPPING..!!");
+														 										break;
+														 									case 687:
+														 										System.out.println(" ORDER HAS BEEN PLACED..!!THANKYOU FOR SHOPPING..!!");
+														 										break;
+														 									default:
+														 										System.out.println("ENTER VALID INPUT..");
+														 	                              	}
+														 	                                 return;
+													     								}
+												 		return;
+												 									}
+											 									}
+										     								
+										     								}
+									     								}
+								     									
+								     				
